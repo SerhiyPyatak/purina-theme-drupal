@@ -78,7 +78,7 @@ header {
     background-position:    center;
     background-size:        cover;
     width:                  50%;
-    height:                 400px;
+    height:                 100%;
 }
 
 #appetite {
@@ -125,7 +125,7 @@ header {
 
 .progress__description {
     width:                  50%;
-    height:                 400px;
+    height:                 100%;
     display:                flex;
     flex-direction:         column;
     padding:                0 150px;
@@ -215,5 +215,147 @@ sup {
 
     .checkpoint {
         left: 45.4%;
+    }
+}
+
+@media(max-width:1440px) {
+    .header__title {
+        line-height: 57px;
+    }
+}
+
+@media(max-width:1280px) {
+    header {
+        height: 487px;
+    }
+
+    .header__title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .header__cashbacker {
+        margin-top: 40px;
+    }
+
+    .header__banner {
+        background-position: 0 96%;
+    }
+
+    .checkpoint {
+        left: 44.4%;
+    }
+}
+
+@media(max-width:1150px) {
+    .header__content {
+        padding-right: 110px;
+    }
+
+    .progress__description {
+        padding: 0 90px;
+    }
+
+    .checkpoint {
+        left: 43.4%;
+    }
+
+    header {
+        height: 470px;
+    }
+
+    .footer__video {
+        width: 800px;
+        height: 500px;
+    }
+
+    footer {
+        height: 727px;
+        gap: 20px;
+    }
+
+    .footer__title {
+        font-size: 35px;
+        line-height: 47px;
+    }
+}
+
+@media(max-width: 980px) {
+    .header__content {
+        padding-right: 60px;
+    }
+
+    .header__content > p {
+        margin-top: 15px;
+    }
+
+    header {
+        height: 420px;
+    }
+
+    .header__cashbacker {
+        margin-top: 25px;
+    }
+
+    .checkpoint {
+        left: 44.4%;
+        height: 115px;
+        width: 115px;
+        font-size: 23px;
+        line-height: 31px;
+    }
+
+    .progress__description {
+        padding: 0 50px;
+    }
+
+    .progress {
+        height: 300px;
+    }
+
+    .progress__logo {
+        margin-bottom: 20px;
+    }
+
+    .progress__title {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    
+    .progress__text {
+        line-height: 20px;
+        font-size:14px;
+    }
+
+    .progress__logo {
+        width: 165px;
+        height: 103px;
+    }
+
+    .checkpoint {
+        height: 95px;
+        width: 95px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .footer__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .footer__video {
+        width: 710px;
+        height: 420px;
+    }
+
+    footer {
+        height: 590px;
+    }
+}
+
+@media(max-width: 880px) {
+    .header__content {
+        padding-right: 20px;
     }
 }
