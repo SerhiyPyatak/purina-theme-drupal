@@ -1,0 +1,17 @@
+name: Purina Theme
+type: theme
+description: 'Purina Theme for Nestle Website.'
+package: Other
+core: 8.x
+libraries:
+  - purina_theme/global-styling
+
+base theme: classy
+regions:
+  header: Header
+  day-one: Day one progress
+  week-one: Week one progress
+  week-two: Week two progress
+  week-three: Week three progress
+  tomorrow: Tomorrow section
+  footer: Footer

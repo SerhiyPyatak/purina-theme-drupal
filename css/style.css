@@ -198,6 +198,7 @@ footer {
     height:                 620px;
 }
 
+<<<<<<< HEAD
 @media(max-width:1560px) {
     header {
         height: 600px;
@@ -210,4 +211,9 @@ footer {
     .checkpoint {
         left: 45.4%;
     }
+=======
+sup {
+    vertical-align: super;
+    font-size: smaller;
+>>>>>>> 1292c4af097b9944baf3d4518d4021b543ff36e3
 }
