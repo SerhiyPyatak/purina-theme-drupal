@@ -197,3 +197,17 @@ footer {
     width:                  1100px;
     height:                 620px;
 }
+
+@media(max-width:1560px) {
+    header {
+        height: 600px;
+    }
+
+    .header__title {
+        font-size: 44px;
+    }
+
+    .checkpoint {
+        left: 45.4%;
+    }
+}
