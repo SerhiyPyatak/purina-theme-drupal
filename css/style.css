@@ -1,4 +1,5 @@
 @import "normalize.css";
+@import "../css/responsibility";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
@@ -357,5 +358,201 @@ sup {
 @media(max-width: 880px) {
     .header__content {
         padding-right: 20px;
+    }
+}
+
+@media(max-width: 780px) {
+    .header__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .header__content > p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .header__cashbacker {
+        width: 170px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    header {
+        height: 365px;
+    }
+
+    .checkpoint {
+        height: 75px;
+        width: 75px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .progress {
+        height: 278px;
+    }
+
+    .progress__logo {
+        width: 165px;
+        height: 112px;
+    }
+
+    .progress__title {
+        margin-bottom: 5px;
+    }
+
+    .progress__text {
+        line-height: 16px;
+        font-size: 11px;
+    }
+
+    .footer__title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .progress__description {
+        padding: 0 36px;
+    }
+
+    .footer__video {
+        width: 594px;
+        height: 296px;
+    }
+
+    footer {
+        height: 420px;
+    }
+}
+
+@media(max-width: 665px) {
+    .header__title {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .header__content > p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .header__cashbacker {
+        margin-top: 12px;
+    }
+
+    header {
+        height: 330px;
+    }
+
+    .progress {
+        height: 246px;
+    }
+
+    .checkpoint {
+        height: 65px;
+        width: 65px;
+    }
+
+    .progress__description {
+        padding: 0 27px;
+    }
+
+    .footer__title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .footer__video {
+        width: 420px;
+        height: 236px;
+    }
+
+    footer {
+        height: 330px;
+    }
+}
+
+@media(max-width: 610px) {
+    .header__banner {
+        display:        none;
+    }
+
+    .header__content {
+        width: 65%;
+    }
+
+    .header__cashbacker {
+        margin-top: 30px;
+    }
+
+    .progress {
+        flex-direction: column;
+        height: 430px;
+    }
+
+    .progress:nth-child(even) > .progress__description {
+        order:                  0;
+    }
+
+    .progress__image {
+        width:      100%;
+    }
+
+    .progress__description {
+        width:      100%;
+    }
+
+    .progress__logo {
+        display:    none;
+    }
+
+    .checkpoint {
+        margin-top: 183px;
+    }
+}
+
+@media(max-width:480px) {
+    .footer__video {
+        width: 300px;
+        height: 170px;
+    }
+
+    footer {
+        height: 275px;
+    }
+
+    .header__content {
+        width: 85%;
+    }
+
+    .header__cashbacker {
+        margin-top: 15px;
+    }
+
+    .header__content > p {
+        line-height: 16px;
+    }
+
+    .header__cashbacker {
+        width: 138px;
+        height: 36px;
+        font-size: 9px;
+        padding: 13px;
+    }
+}
+
+@media(max-width:355px) {
+    .footer__video {
+        width: 248px;
+        height: 140px;
+    }
+
+    .progress {
+        height: 365px;
+    }
+
+    .checkpoint {
+        margin-top: 150px;
     }
 }
